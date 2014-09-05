@@ -1,0 +1,37 @@
+/* Style guide from Logo colors
+Lighter blue: #0093DD
+Light blue #007DC4;
+Blue #0069B3 or #0067AC or #0167A9
+Dark blue: #0A408A;*/
+nav{
+	background-color: white;
+}
+.navbar-fixed-top {
+	top: 400px;
+}
+.nav li a{
+	color: #0A408A;
+	font-size: 20px;
+	padding: 20px 15px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	color: #007DC4;
+	background-color: transparent;
+}
+#banner-row{
+	padding-bottom: 75px;
+}
+#banner-row img{
+	padding-top: 70px;
+}
+
+#about-row {
+	background: url('../img/IMG_9098.jpg') no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-top: 150px;
+}
+
+#jobs-row .row {
+	padding: 30px 0;
+}

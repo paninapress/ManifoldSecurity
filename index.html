@@ -3,9 +3,66 @@
   <head>
     <title>Manifold Security</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('body').scrollspy({ target: '.navbar-spy' })
+        }
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar-spy">
+<!--     <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container-fluid row navbar-spy">
+            <div class="navbar-header col-md-3 text-center">
+                <img src="img/Manifold_long_transparent.png" class="img-responsive">
+            </div>
+            <div class="col-md-7 col-md-offset-2">
+                <ul class="nav nav-justified">
+                    <li class="active"><a href="#banner-row">Technology</a></li>
+                    <li><a href="#about-row">About</a></li>
+                    <li><a href="#jobs-row">Jobs</a></li>
+                    <li><a href="#team-row">Team</a></li>
+                    <li><a href="#contact-row">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <div class="container-fluid">
+        <div id="banner-row" class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-6 col-md-offset-3">
+                    <img src="img/Manifold_square_transparent.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+
+        <div id="about-row" class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <h2>Manifold is changing the security paradigm. We provide a revolutionary encryption key management and secure multiparty transaction platform.</h2>
+                <h2>We empower you to maintain sole control over your sensitive data. Any time, any where.</h2>
+            </div>
+        </div>
+
+        <div id="jobs-row" class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1 class="text-center">Come work with us!</h1>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Senior Engineer: Yadda Yadda, job sounds hard.</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Junior Engineer: Yadda Yadda, job sounds hard too.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div> <!-- end of container-fluid -->
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
   </body>
 </html>

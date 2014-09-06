@@ -39,4 +39,4 @@ gem 'dotenv', '~> 0.11.1'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+ruby "2.1.2"

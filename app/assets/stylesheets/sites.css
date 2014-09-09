@@ -6,9 +6,6 @@ Dark blue: #0A408A;*/
 nav{
 	background-color: white;
 }
-.navbar-fixed-top {
-	top: 400px;
-}
 .nav li a{
 	color: #0A408A;
 	font-size: 20px;
@@ -20,6 +17,7 @@ nav{
 }
 #banner-row{
 	padding-bottom: 75px;
+	min-height: 500px;
 }
 #banner-row img{
 	padding-top: 70px;

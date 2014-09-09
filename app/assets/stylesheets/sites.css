@@ -33,7 +33,16 @@ nav{
 #jobs-row .row {
 	padding: 30px 0;
 }
-
+#team-row .row{
+	padding: 50px 0;
+}
+#team-row p {
+	line-height: 1.5;
+}
+.mid-row-borders{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
 #contact-row {
 	padding-top: 50px; 
 }

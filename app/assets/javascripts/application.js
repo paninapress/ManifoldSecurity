@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap.min
 //= require skrollr.min
+//= require skrollr.menu.min
 //= require_tree .

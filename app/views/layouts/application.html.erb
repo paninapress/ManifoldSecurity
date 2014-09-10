@@ -5,13 +5,19 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script type="text/javascript">
+      $(document).ready(function() {
+                $('body').scrollspy({ target: '.navbar-spy' })
+            }
+        </script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-spy">
 
 <%= yield %>
 
 	<script type="text/javascript">
 	var s = skrollr.init();
+	skrollr.menu.init(s);
 	</script>
 </body>
 </html>

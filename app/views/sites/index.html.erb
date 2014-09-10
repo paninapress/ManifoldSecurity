@@ -1,9 +1,18 @@
 <nav class="navbar skrollable skrollable-between" role="navigation" data-0="top: 400px;" data-400="position: fixed; z-index: 1030; top: 0;" >
     <div class="container-fluid row navbar-spy">
-        <div class="navbar-header col-md-3 text-center">
-            <img src=" <%= asset_path('Manifold_long_transparent.png') %>" class="img-responsive">
+        <div class="navbar-header col-sm-3 col-xs-6 text-center">
+            <img src=" <%= asset_path('Manifold_long_transparent.png') %>" class="img-responsive navbar-left">
+
         </div>
-        <div class="col-md-7 col-md-offset-2">
+        
+        <div class="col-sm-7 col-sm-offset-2">
+            <button type="button" class="navbar-toggle navbar-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav nav-justified">
                 <li class="active"><a href="#banner-row">Technology</a></li>
                 <li><a href="#about-row">About</a></li>
@@ -11,7 +20,9 @@
                 <li><a href="#team-row">Team</a></li>
                 <li><a href="#contact-row">Contact</a></li>
             </ul>
+            </span>
         </div>
+        
     </div>
 </nav>
 
@@ -33,7 +44,8 @@
 
     <div id="jobs-row" class="row">
         <div class="col-md-10 col-md-offset-1">
-            <h1 class="text-center">Come work with us!</h1>
+            <h1 class="text-center"><span style="background: #0069B3;
+color: white;">Come work with us!</span></h1>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 job-description">
                     <h2>Security Engineer:</h2>

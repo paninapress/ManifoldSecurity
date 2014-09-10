@@ -50,7 +50,7 @@ nav{
 	margin-bottom: 15px;
 }
 .job-description h3{
-	font-family: 'GothamBook';
+	font-family: 'GothamBook', 'Helvetica Neue';
 }
 .job-description span {
 	font-family: 'Helvetica Neue', 'GothamBook';

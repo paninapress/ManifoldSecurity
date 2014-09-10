@@ -7,6 +7,10 @@ Dark blue: #0A408A;*/
               font-family: "GothamBook";
               src: url("/assets/GothamBook.otf") format('truetype');
             }
+@font-face {
+              font-family: "GothamMedium";
+              src: url("/assets/GothamMedium.otf") format('truetype');
+            }
 nav{
 	background-color: white;
 	font-family: 'GothamBook', 'Helvetica';
@@ -41,6 +45,24 @@ nav{
 
 #jobs-row .row {
 	padding: 30px 0;
+}
+.job-description h3{
+	font-family: 'GothamBook';
+}
+.job-description span {
+	font-family: 'Helvetica Neue', 'GothamBook';
+}
+.btn-job {
+	background-color: #007DC4;
+	color: white;
+}
+.btn-job a{
+	color: white;
+	font-family: 'GothamBook', 'Helvetica Neue';
+	font-size: 16px;
+}
+.btn-job a:hover, .btn-job a:focus{
+	text-decoration: none;
 }
 #team-row .row{
 	padding: 50px 0;

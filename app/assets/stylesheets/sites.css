@@ -3,17 +3,11 @@ Lighter blue: #0093DD
 Light blue #007DC4;
 Blue #0069B3 or #0067AC or #0167A9
 Dark blue: #0A408A;*/
-@font-face {
-              font-family: "GothamBook";
-              src: url("/assets/GothamBook.otf") format('truetype');
-            }
-@font-face {
-              font-family: "GothamMedium";
-              src: url("/assets/GothamMedium.otf") format('truetype');
-            }
+body{
+	font-family: 'Lucida Grande';
+}
 nav{
 	background-color: white;
-	font-family: 'GothamBook', 'Helvetica';
 }
 .nav li a{
 	color: #0A408A;
@@ -23,10 +17,6 @@ nav{
 .nav>li>a:hover, .nav>li>a:focus {
 	color: #007DC4;
 	background-color: transparent;
-	font-family: 'GothamMedium';
-}
-.nav > li.active > a, .nav > li.active > a:hover, .nav > li.active > a:focus{
-	font-family: 'GothamMedium';
 }
 #banner-row{
 	padding-bottom: 75px;
@@ -49,19 +39,12 @@ nav{
 	border: 1px dashed lightgrey;
 	margin-bottom: 15px;
 }
-.job-description h3{
-	font-family: 'GothamBook', 'Helvetica';
-}
-.job-description span {
-	font-family: 'Helvetica Neue', 'GothamBook';
-}
 .btn-job {
 	background-color: #007DC4;
 	color: white;
 }
 .btn-job a{
 	color: white;
-	font-family: 'GothamBook', 'Helvetica Neue';
 	font-size: 16px;
 }
 .btn-job a:hover, .btn-job a:focus{
@@ -69,10 +52,6 @@ nav{
 }
 #team-row .row{
 	padding: 50px 0;
-}
-#team-row p {
-	font-family: 'GothamBook', 'Helvetica Neue', 'Helvetica, Arial', 'sans-serif';
-	line-height: 1.5;
 }
 .mid-row-borders{
 	border-top: 1px solid grey;

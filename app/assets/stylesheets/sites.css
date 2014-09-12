@@ -54,17 +54,29 @@ nav{
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 }
-#jobs-row, #team-row, #contact-row {
+#team-row {
 	padding-top: 70px; /*make room for nav bar*/
 	border-bottom: 1px solid #0A408A;
+	border-top: 1px solid #0A408A;
+}
+#jobs-row {
+	padding-top: 70px;
+	min-height: 500px;
 }
 
-.social-section{
-	padding: 30px 0;
-}
-.contact-section {
+#contact-row {
 	background: url('/assets/IMG_2314.jpg') no-repeat;
 	background-size: cover;
-	height: 500px;
-	padding: 30px 0;
+}
+.contact-section {
+	padding: 20px 0;
+	background-color: rgba(10,64,138,0.4);
+}
+.social-section{
+	padding: 20px 0;
+	background-color: rgba(10,64,138,0.5);
+	margin-top: 150px;
+}
+#jobs-row h1, .contact-section h1, .social-section h1 {
+	margin-bottom: 25px;
 }

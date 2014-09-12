@@ -14,29 +14,20 @@ nav{
 	font-size: 20px;
 	padding: 20px 15px;
 }
-.nav>li>a:hover, .nav>li>a:focus {
+.nav>li>a:hover, .nav>li>a:focus, .nav>li.active>a {
 	color: #007DC4;
 	background-color: transparent;
+	text-decoration: underline;
 }
 #banner-row{
-	padding-bottom: 75px;
-	min-height: 500px;
-}
-#banner-row img{
-	padding-top: 70px;
-}
-
-#about-row {
-	background: url('/assets/IMG_9098.jpg') center no-repeat;
-	background-size: cover;
-	min-height: 500px;
 	padding-top: 150px;
+	min-height: 800px;
+	border-bottom: 1px solid #0A408A;
+	color: grey;
 }
 
 #jobs-row .row {
 	padding: 15px 0;
-	background-color: #fafafa;
-	border: 1px dashed lightgrey;
 	margin-bottom: 15px;
 }
 .btn-job {
@@ -59,6 +50,7 @@ nav{
 }
 #jobs-row, #team-row, #contact-row {
 	padding-top: 70px; /*make room for nav bar*/
+	border-bottom: 1px solid #0A408A;
 }
 
 .social-section{

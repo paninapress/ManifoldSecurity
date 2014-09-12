@@ -5,6 +5,7 @@ Blue #0069B3 or #0067AC or #0167A9
 Dark blue: #0A408A;*/
 body{
 	font-family: 'Lucida Grande';
+	color: #0A4077; /*slightly darker blue*/
 }
 nav{
 	background-color: white;

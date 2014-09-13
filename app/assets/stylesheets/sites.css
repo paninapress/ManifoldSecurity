@@ -6,6 +6,7 @@ Dark blue: #0A408A;*/
 body{
 	font-family: 'Lucida Grande';
 	color: #0A4077; /*slightly darker blue*/
+	font-size: 16px;
 }
 nav{
 	background-color: white;
@@ -51,32 +52,39 @@ nav{
 #team-row .row{
 	padding: 50px 0;
 }
-.mid-row-borders{
+#team-row .mid-row-borders{
 	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
 }
 #team-row {
 	padding-top: 70px; /*make room for nav bar*/
 	border-top: 1px solid #0A408A;
 }
+#teamOne a, #teamTwo a, #teamThree a {
+	font-size: 16px;
+	color: #0A4077;
+}
 #jobs-row {
 	padding-top: 70px;
 	min-height: 500px;
 }
-
 #contact-row {
+	padding-top: 70px;
+}
+.contact-section{
 	background: url('/assets/IMG_2314.jpg') no-repeat;
 	background-size: cover;
-	margin-top: 70px;
-}
-.contact-section {
-	background-color: rgba(10,64,138,0.4);
+	padding-top: 70px;
+	min-height: 500px;
+	color: grey;
 }
 .social-section{
-	padding-bottom: 20px;
-	background-color: rgba(10,64,138,0.5);
-	margin-top: 150px;
+	padding: 20px 0;
+	background-color: #e7e7e7;
+	/*margin-top: 150px;*/
 }
-#jobs-row h1, .contact-section h1, .social-section h1 {
-	margin-bottom: 25px;
+.social-section img{
+	width: 65px;
+}
+#contact-row h1, #jobs-row h1, .contact-section h1, .social-section h1 {
+	margin-bottom: 50px;
 }

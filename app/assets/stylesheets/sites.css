@@ -56,8 +56,9 @@ nav{
 	border-top: 1px solid grey;
 }
 #team-row {
-	padding-top: 70px; /*make room for nav bar*/
+	padding: 70px 0; /*make room for nav bar*/
 	border-top: 1px solid #0A408A;
+	border-bottom: 1px solid #0A408A;
 }
 #teamOne a, #teamTwo a, #teamThree a {
 	font-size: 16px;

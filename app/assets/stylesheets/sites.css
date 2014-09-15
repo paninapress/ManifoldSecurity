@@ -9,7 +9,7 @@ body{
 	font-size: 16px;
 }
 nav{
-	background-color: white;
+	background-color: #FAFAFA;
 }
 .nav li a{
 	color: #0A408A;
@@ -63,20 +63,24 @@ nav{
 #teamOne a, #teamTwo a, #teamThree a {
 	font-size: 16px;
 	color: #0A4077;
+	line-height: 1.42857143;
 }
 #jobs-row {
 	padding-top: 70px;
 	min-height: 500px;
 }
+#jobs-row .col-md-6 {
+	padding-top: 25px;
+}
 #contact-row {
 	padding-top: 70px;
 }
 .contact-section{
-	background: url('/assets/IMG_2314.jpg') no-repeat;
+	background: url('/assets/GGBridge_cropped.png') bottom center no-repeat;
 	background-size: cover;
-	padding-top: 70px;
-	min-height: 500px;
+	min-height: 350px;
 	color: grey;
+	padding-left: 10px;
 }
 .social-section{
 	padding: 20px 0;

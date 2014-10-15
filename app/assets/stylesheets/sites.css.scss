@@ -38,6 +38,9 @@ nav{
 	padding: 15px 0;
 	margin-bottom: 15px;
 }
+.panel-heading{
+	min-height: 160px;
+}
 .btn-job {
 	background-color: #007DC4;
 	color: white;
@@ -60,7 +63,7 @@ nav{
 	border-top: 1px solid #0A408A;
 	border-bottom: 1px solid #0A408A;
 }
-#teamOne a, #teamTwo a, #teamThree a {
+#teamOne a, #teamTwo a, #teamThree a, #TeamFour a{
 	font-size: 16px;
 	color: #0A4077;
 	line-height: 1.42857143;

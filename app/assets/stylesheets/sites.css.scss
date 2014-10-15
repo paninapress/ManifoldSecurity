@@ -79,11 +79,14 @@ nav{
 	padding-top: 100px;
 }
 .contact-section{
-	background: asset-data-url( 'GGBridge_resized2.png') bottom center no-repeat;
+	background: asset-data-url( 'BlueAngels-Manifold.jpg') center no-repeat;
 	background-size: cover;
 	min-height: 350px;
 	color: grey;
 	padding-left: 10px;
+}
+.contact-section h3{
+	font-size: 18px;
 }
 .contact-section a{
 	color: grey;
@@ -98,4 +101,8 @@ nav{
 }
 #contact-row h1, #jobs-row h1, .contact-section h1, .social-section h1 {
 	margin-bottom: 50px;
+}
+
+@media (min-width: 780px) { 
+	.contact-section h3 {  font-size: 25px; }
 }

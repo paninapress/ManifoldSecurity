@@ -102,7 +102,10 @@ nav{
 #contact-row h1, #jobs-row h1, .contact-section h1, .social-section h1 {
 	margin-bottom: 50px;
 }
-
+.title-bar-img{
+	width: 10%;
+}
 @media (min-width: 780px) { 
 	.contact-section h3 {  font-size: 25px; }
+	.title-bar-img{ width: initial; }
 }
